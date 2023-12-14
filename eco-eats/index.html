@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bulma.css">
+    <link rel="shortcut icon" href="logo.png">
+    <title>Eco Eat!</title>
+</head>
+
+<body>
+    <header>
+        <div class="columns">
+            <div class="column is-10">
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="navbar-brand">
+                        <a class="navbar-item">
+                            <figure class="is is-256x256">
+                                <img src="bio.jpg">
+                            </figure>
+                        </a>
+                        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                            data-target="navbarBasicExample">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+
+                    <div id="navbarBasicExample" class="navbar-menu">
+                        <div class="navbar-start">
+                            <a href="#propos" class="navbar-item">
+                                A propos
+                            </a>
+                            <a href="#form" class="navbar-item">
+                                comment ça marche ?
+                            </a>
+
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link">
+                                    Menu
+                                </a>
+
+                                <div class="navbar-dropdown">
+                                    <a href="#entree" class="navbar-item">
+                                        Entrée
+                                    </a>
+                                    <a href="#plat" class="navbar-item">
+                                        plats
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="column">
+                <div class="navbar">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-success">
+                                <strong>s'inscrire</strong>
+                            </a>
+                            <a class="button is-light">
+                                connexion
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </nav>
+
+        </div>
+
+        <div class="box" style="background: url(pices.jpg)">
+            <figure class="image container is-128x128">
+                <img src="logo.png" alt="">
+            </figure>
+        </div>
+
+        <h1 class="title is-1 has-text-centered is-primary is-underlined">Service de livraison de repas et éthique !
+        </h1>
+
+    </header>
+
+    <main class="main">
+        <div class="box has-text-centered is-primary">
+
+            <p>
+
+
+            <h3 class="has-text-success is-size-2">Savourez l'éthique près de chez vous</h3><br>
+
+            <p class="subtitle is-4">Bienvenue chez Eco Eats, votre oasis culinaire où la gourmandise se marie
+                harmonieusement avec la
+                responsabilité environnementale. Notre restaurant s'engage à vous offrir une expérience gastronomique
+                exceptionnelle, directement dans le confort de votre foyer.<br></p>
+
+            <h3 id="propos" class="has-text-success is-size-4">Des saveurs Bio et Gourmandes</h3><br>
+
+            <p class="subtitle is-5"> Au cœur de notre cuisine, nous cultivons une passion pour les ingrédients bio et
+                de saison. Chaque plat
+                est une célébration de saveurs authentiques, provenant de produits soigneusement sélectionnés auprès de
+                producteurs locaux et responsables. Nos chefs talentueux transforment ces joyaux naturels en créations
+                culinaires exquises qui émerveilleront vos papilles.<br></p>
+
+            <h3 class="has-text-success is-size-4">Livraison Éthique et Rapide</h3><br>
+
+            <p class="subtitle is-5"> Chez Eco Eats, nous comprenons l'importance de votre temps. C'est pourquoi nous
+                avons mis en place un
+                service de livraison rapide et efficace qui assure que vos repas délicieux arrivent à votre porte en
+                toute fraîcheur. Nous utilisons des emballages écologiques, respectueux de l'environnement, afin de
+                minimiser notre empreinte carbone et de contribuer à la préservation de notre belle planète.<br></p>
+
+
+            <p class="subtitle is-5"> Notre mission ne se limite pas à vous offrir des repas délicieux, mais aussi à
+                promouvoir un mode de vie
+                sain et durable. Nous travaillons en étroite collaboration avec des fournisseurs qui partagent notre
+                vision éthique. De plus, nos pratiques de gestion des déchets et d'économie d'énergie font de nous un
+                restaurant véritablement vert.<br></p>
+
+            <h3 class="has-text-success is-size-4">Menu variées pour tout les goûts</h3><br>
+
+            <p class="subtitle is-5">Que vous soyez végétarien, végétalien, ou amateur de viande, notre menu diversifié
+                propose des options
+                pour tous les goûts. Chaque plat est élaboré avec soin pour satisfaire vos envies tout en respectant nos
+                normes éthiques strictes.<br></p>
+
+
+            <p class="subtitle is-5">Offrez-vous une pause gastronomique éthique et succombez aux délices d'Eco Eats.
+                Commandez dès
+                aujourd'hui et laissez notre équipe dévouée vous livrer une expérience culinaire exceptionnelle,
+                directement à votre porte. Parce que chez nous, le bien-être de votre palais va de pair avec celui de la
+                planète.<br></p>
+            </p>
+            <div id="scroll_to_top">
+                <div class="has-text-right"> <a href="#top">haut de page</a> </div>
+            </div>
+        </div>
+        <section>
+            <h2>Menu:</h2>
+            <ul>
+                <h2 class="has-text-success is-size-2 has-text-centered" id="entree">ENTREES</h2>
+                <div class="columns">
+                    <div class="column is-3"></div>
+                    <div class="column is-3">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-256x256">
+                                    <img src="dahl.jpg" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+
+                                    <div class="media-content">
+                                        <p class="title is-4">Entrée haricot BIO 9€</p>
+
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    haricot<br>riz<br>concombre<br><input class="button" type="number" min="1" max="5" value="0"><br><a href="#form" class="button is-success">commander</a>
+
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-256x256">
+                                    <img src="moelleux.jpg" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+
+                                    <div class="media-content">
+                                        <p class="title is-4">piemontaise revisitée BIO 9€</p>
+
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    pomme de terre<br>tomate<br>porc<br><br> <input class="button" type="number" min="1" max="5" value="0"><br><a href="#form" class="button is-success">Commander</a>
+
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column"></div>
+                    <div class="has-text-right"> <a href="#top">haut de page</a> </div>
+                </div>
+
+                <h2 id="plat" class="has-text-success is-size-2 has-text-centered">PLATS</h2>
+                <div class="columns">
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-256x256">
+                                    <img src="boulette.jpg" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+
+                                    <div class="media-content">
+                                        <p class="title is-4">Boulettes de poulet BIO 15€</p>
+
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    poulet<br>riz<br>tomates<br><br> <input class="button" type="number" min="1" max="5" value="0"><br><a href="#form" class="button is-success">commander</a>
+
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-256x256">
+                                    <img src="couscous.jpg" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+
+                                    <div class="media-content">
+                                        <p class="title is-4">Couscous veggie BIO 15€</p>
+
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    semoule<br>tofu<br>légumes de saisons<br><br> <input class="button" type="number" min="1" max="5" value="0"><br><a href="#form" class="button is-success">commander</a>
+
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-256x256">
+                                    <img src="choucroute.jpg" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+
+                                    <div class="media-content">
+                                        <p class="title is-4">Choucroute BIO 15€</p>
+
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    Choux<br>porc<br><br><br><input class="button" type="number" min="1" max="5" value="0"><br> <a href="#form" class="button is-success">commander</a>
+
+
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-256x256">
+                                    <img src="gnocchis.jpg" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+
+                                    <div class="media-content">
+                                        <p class="title is-4">Gnocchis saumon BIO 15€</p>
+
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    Gnocchis<br>saumon<br>crème fraiche<br><br><input class="button" type="number" min="1" max="5" value="0"><br> <a href="#form" class="button is-success">commander</a>
+
+                                    <br>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image container is-128x128">
+                            <img src="glace.jpg" alt="Placeholder image">
+                        </figure>
+                    </div>
+
+                </div>
+                <div class="card-content">
+                    <div class="media">
+
+                        <div class="media-content">
+                            <p class="title is-4 has-text-success has-text-centered">Dessert surprise offert pour toutes
+                                commandes, fruits de saisons garanties! </p>
+
+                        </div>
+                    </div>
+                    <div class="has-text-right"> <a href="#top">haut de page</a> </div>
+                </div>
+                </div>
+            </ul>
+        </section>
+        <h2 class="title is-1 has-text-centered is-primary" id="form">Formulaire de Commande</h2>
+        <p class="subtitle is-5 has-text-centered">Comment ça marche?Rien de plus simple, remplissez le
+            formulaire,choissisez vos plats et vous serez livré dans les 30 minutes.<br>Le livreur viendra avec son TPE
+            :) </p>
+
+        <div class="columns">
+
+            <div class="column is-offset-one-fifth">
+            
+                <div class="field">
+                    <label class="label">Nom</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Text input">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Prénom</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Text input">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Adresse</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input" type="text" placeholder="Text input" value="ex: 7 rue Poupoune">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-user"></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </div>
+                    
+                </div>
+
+                <div class="field">
+                    <label class="label">téléphone</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input" type="tel" placeholder="tel input" value="06.00.00.00.00">
+                        <span>
+                            <i class="fa-solid fa-phone"></i>
+                        </span>
+
+                    </div>
+
+                    <div class="field">
+                        <label>Moyen de paiement:</label>
+                        <div class="control">
+                            <div class="select">
+                                <select>
+                                    <option value="fr">carte bleu</option>
+                                    <option value="en">liquide</option>
+                                    <option value="other">chèque</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Message,devis, ingrédients en plus en moins...</label>
+                        <div class="control">
+                            <textarea class="textarea" placeholder="Textarea"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control">
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                J'accepte les <a href="#">termes et conditions</a>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control">
+                            <label class="radio">Dessert ?
+                                <input type="radio" name="question">
+                                Oui
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="question">
+                                Non
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="field is-grouped">
+                        <div class="control">
+                            <button class="button is-success">Commander</button>
+                        </div>
+                        <div class="control">
+                            <button class="button is-link is-light">Annuler</button>
+                        </div>
+                    </div>
+                </div>
+
+               
+
+            </div>
+            <div class="column is-3"></div>
+            
+        </div>
+        <div class="has-text-right"> <a href="#top">haut de page</a> </div>
+      
+    </main>
+
+    <footer class="columns has-text-white" style="background-color: black;">
+        <div class="column">
+            <h3>nous contactez</h3>
+            <p>tel:06.25.25.26.25<br>
+                @mail ecoeats@gmail.fr<br>
+                adresse: 7 rue Poupoune 30100 Alès
+            </p>
+        </div>
+        <div class="column"></div>
+       
+        
+        <div class="reseaux-sociaux">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a><br>
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a><br>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a><br>
+            <a href="/mentions-legales">Mentions Légales</a><br>
+        </div>
+        <div class="column"></div>
+    </footer>
+
+</body>
+
+</html>
